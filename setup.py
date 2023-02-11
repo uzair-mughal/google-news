@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='GoogleNewsAPI',
+    name='google_news_api',
     packages=find_packages(),
     version='0.0.1',
     license='MIT',

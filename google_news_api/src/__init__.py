@@ -1,0 +1,1 @@
+from google_news_api.src.google_news import GoogleNews
