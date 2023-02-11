@@ -1,0 +1,1 @@
+from src.google_news import GoogleNews

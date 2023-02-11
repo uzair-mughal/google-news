@@ -103,7 +103,6 @@ class GoogleNews:
     def topic_headlines(self, topic: str, proxies=None, scraping_bee=None):
         """Return a list of all articles from the topic page of Google News
         given a country and a language"""
-        #topic = topic.upper()
         if topic.upper() in ['WORLD', 'NATION', 'BUSINESS', 'TECHNOLOGY', 'ENTERTAINMENT', 'SCIENCE', 'SPORTS', 'HEALTH']:
             d = self.__parse_feed(self.BASE_URL + '/headlines/section/topic/{}'.format(topic.upper()) + self.__ceid(), proxies = proxies, scraping_bee=scraping_bee)
 
