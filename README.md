@@ -1,1 +1,1 @@
-# google-news
+# google-news-scraper
